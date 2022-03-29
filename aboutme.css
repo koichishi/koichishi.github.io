@@ -1,0 +1,25 @@
+.aboutme-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.aboutme-image {
+  top: -183px;
+  flex: 1;
+  left: 0px;
+  width: 1400px;
+  height: MaxContent;
+  opacity: 0.3;
+  position: absolute;
+  object-fit: fill;
+}
+.aboutme-text {
+  margin-top: 50px;
+  text-align: left;
+  width: 1000px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
