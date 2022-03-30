@@ -97,13 +97,13 @@
   margin-right: auto;
 }
 .home-hero-text-container {
-  width: 633px;
-  height: 406px;
+
   display: flex;
   align-self: flex-start;
   align-items: flex-start;
   padding-left: var(--dl-space-space-tenunits);
   flex-direction: column;
+  justify-content: flex-start;
 }
 .home-heading {
   color: #040404;
@@ -196,6 +196,9 @@
   display: grid;
   grid-gap: 32px;
   grid-template-columns: 1fr 1fr;
+  padding-right: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+
 }
 .home-section-separator2 {
   width: 100%;
