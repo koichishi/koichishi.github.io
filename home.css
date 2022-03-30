@@ -93,6 +93,8 @@
   align-self: flex-start;
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius8);
+  margin-left: auto;
+  margin-right: auto;
 }
 .home-hero-text-container {
   width: 633px;
