@@ -18,11 +18,14 @@
   margin-right: auto;
 }
 .aboutme-text {
-  font-weight: 1000;
-  line-height: 2;
-  margin-top: 50px;
-  text-align: left;
-  width: 1000px;
-  margin-left: 100px;
-  margin-right: 100px;
+  color: var(--dl-color-gray-black);
+  font-size: 15px;
+  font-family: monospace;
+  width: 80%;
+  font-weight: 600;
+  line-height: 1.55;
+  margin-bottom: var(--dl-space-space-fiveunits);
+  letter-spacing: 2;
+  text-transform: none;
+  text-decoration: none;
 }
