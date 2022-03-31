@@ -313,7 +313,11 @@
   .home-hero-text-container {
     width: 80%;
     align-items: center;
+    padding-left: 0px;
     margin-bottom: var(--dl-space-space-fourunits);
+  }
+  .home-cta-btn-container {
+    grid-template-columns: 1fr;
   }
 }
 @media(max-width: 767px) {
@@ -336,6 +340,7 @@
 @media(max-width: 479px) {
   .home-hero-text-container {
     width: 100%;
+    grid-template-columns: 1fr;
   }
   .home-features {
     padding-top: 32px;
